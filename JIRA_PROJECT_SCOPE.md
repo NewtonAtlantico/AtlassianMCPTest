@@ -4,9 +4,12 @@ This repository is tied exclusively to the Jira project called "MyProject". Do n
 
 All automation, integration, and ticket management must be scoped to "MyProject" only.
 
-
 ## Story point estimation
 
 For story point estimation use fibonacci and try to use maximum 8 points. If a task looks like it will be more than 8 points, think of ways of breaking this task into smaller ones.
 
 Consider the PR review time and the merge process in the story point estimation. Lets assume the combination of both take about 1 day to complete and this must be accounted in the task development time
+
+## Bug identification and resolution
+
+If the agent is able to find a bug or issue with the code during the execution. Track to see if there is an existing Jira ticket related to this specific issue. If so, ask for permission to try and fix it
